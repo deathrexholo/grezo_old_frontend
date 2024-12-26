@@ -213,7 +213,7 @@
 
             <?php
             // Database connection code (adjust with your database credentials)
-            $conn=mysqli_connect("localhost","u794049541_grezzo","Grezo@sks1!1","u794049541_grzosks");
+            $conn=mysqli_connect("localhost","databasename","dattabasepass","u794049541_grzosks");
 
             if (!$conn) {
                 die("Sorry, we failed to connect: " . mysqli_connect_error());
